@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Wed, 07 Apr 2021 14:04:15 +0800</lastBuildDate><atom:link href="https://www.lprvep.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Jun 2021 03:48:15 +0800</lastBuildDate><atom:link href="https://www.lprvep.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>redteam</title>
+      <link>https://www.lprvep.com/tags/redteam/</link>
+      <pubDate>Tue, 15 Jun 2021 03:48:15 +0800</pubDate>
+      
+      <guid>https://www.lprvep.com/tags/redteam/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>php</title>
       <link>https://www.lprvep.com/tags/php/</link>
