@@ -2,17 +2,17 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>PHP反序列化漏洞学习 - Lprvep</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta property="og:title" content="PHP反序列化漏洞学习" />
-<meta property="og:description" content="利用hash登录远程桌面 在渗透测试过程中,获取得到了某个用户的NTLM hash时,可以利用PTH(Pass the hash)对远程桌面服务进行登录" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>利用hash登录远程桌面 - Lprvep</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="利用hash登录远程桌面" />
+<meta property="og:description" content="在渗透测试过程中,获取得到了某个用户的NTLM hash时,可以利用PTH(Pass the hash)对远程桌面服务进行登录" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.lprvep.com/posts/pth-rdp/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-06-15T03:48:15&#43;08:00" />
 <meta property="article:modified_time" content="2021-06-15T03:48:15&#43;08:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="PHP反序列化漏洞学习"/>
-<meta name="twitter:description" content="利用hash登录远程桌面 在渗透测试过程中,获取得到了某个用户的NTLM hash时,可以利用PTH(Pass the hash)对远程桌面服务进行登录"/>
+<meta name="twitter:title" content="利用hash登录远程桌面"/>
+<meta name="twitter:description" content="在渗透测试过程中,获取得到了某个用户的NTLM hash时,可以利用PTH(Pass the hash)对远程桌面服务进行登录"/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="https://www.lprvep.com/css/normalize.css" />
@@ -71,13 +71,12 @@
 
 
 		<div class="post-header">
-			<h1 class="title">PHP反序列化漏洞学习</h1>
+			<h1 class="title">利用hash登录远程桌面</h1>
 			<div class="meta">Posted at &mdash; Jun 15, 2021</div>
 		</div>
 
 		<div class="markdown">
-			<h3 id="利用hash登录远程桌面">利用hash登录远程桌面</h3>
-<p>在渗透测试过程中,获取得到了某个用户的NTLM hash时,可以利用PTH(Pass the hash)对远程桌面服务进行登录</p>
+			<p>在渗透测试过程中,获取得到了某个用户的NTLM hash时,可以利用PTH(Pass the hash)对远程桌面服务进行登录</p>
 <h5 id="适用系统">适用系统</h5>
 <p>Windows8.1和 Windows Server 2012 R2默认支持该功能</p>
 <p>Windows7 和 Windows Server 2008 R2默认不支持,需要安装补丁KB2871997,KB2973351</p>
